@@ -6,6 +6,7 @@ public class ariketa1 {
 		String nombre = "Ekain";
 		
 		for (int i=1 ; i<=nombre.length() ; i++) {
+			System.out.print(i + " ");
 			System.out.println(nombre.substring(0,i));
 		}
 
